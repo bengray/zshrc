@@ -1,0 +1,97 @@
+Last login: Mon Aug 26 12:28:55 on ttys000
+[Oh My Zsh] Would you like to update? [Y/n]: y
+Updating Oh My Zsh
+remote: Enumerating objects: 3215, done.
+remote: Counting objects: 100% (2582/2582), done.
+remote: Compressing objects: 100% (895/895), done.
+remote: Total 1963 (delta 1197), reused 1805 (delta 1046), pack-reused 0
+Receiving objects: 100% (1963/1963), 434.13 KiB | 4.06 MiB/s, done.
+Resolving deltas: 100% (1197/1197), completed with 146 local objects.
+From https://github.com/robbyrussell/oh-my-zsh
+ * branch              master     -> FETCH_HEAD
+   28232904..9524db73  master     -> origin/master
+Updating 28232904..9524db73
+Fast-forward
+ .github/workflows/pull_request_triage.yml          |   1 +
+ lib/misc.zsh                                       |   5 -
+ plugins/alias-finder/README.md                     |  46 +++++
+ plugins/alias-finder/alias-finder.plugin.zsh       |  46 +++++
+ plugins/autojump/autojump.plugin.zsh               |   5 -
+ plugins/fabric/_fab                                |   2 +-
+ plugins/git-escape-magic/README.md                 |  17 ++
+ plugins/git-escape-magic/git-escape-magic          | 135 ++++++++++++++
+ .../git-escape-magic/git-escape-magic.plugin.zsh   |   9 +
+ plugins/git/README.md                              |   6 +-
+ plugins/git/git.plugin.zsh                         |   6 +-
+ plugins/homestead/homestead.plugin.zsh             |   2 +-
+ plugins/ripgrep/README.md                          |   4 +-
+ plugins/ripgrep/_ripgrep                           | 187 +++++++++++++++++++-
+ plugins/sudo/sudo.plugin.zsh                       |   4 +-
+ plugins/thefuck/thefuck.plugin.zsh                 |   4 +-
+ plugins/ubuntu/ubuntu.plugin.zsh                   |   6 +-
+ themes/af-magic.zsh-theme                          |  10 +-
+ 18 files changed, 468 insertions(+), 27 deletions(-)
+ create mode 100644 plugins/alias-finder/README.md
+ create mode 100644 plugins/alias-finder/alias-finder.plugin.zsh
+ create mode 100644 plugins/git-escape-magic/README.md
+ create mode 100644 plugins/git-escape-magic/git-escape-magic
+ create mode 100644 plugins/git-escape-magic/git-escape-magic.plugin.zsh
+Current branch master is up to date.
+         __                                     __
+  ____  / /_     ____ ___  __  __   ____  _____/ /_
+ / __ \/ __ \   / __ `__ \/ / / /  /_  / / ___/ __ \
+/ /_/ / / / /  / / / / / / /_/ /    / /_(__  ) / / /
+\____/_/ /_/  /_/ /_/ /_/\__, /    /___/____/_/ /_/
+                        /____/
+Hooray! Oh My Zsh has been updated and/or is at the current version.
+To keep up on the latest news and updates, follow us on twitter: https://twitter.com/ohmyzsh
+Get your Oh My Zsh swag at:  https://shop.planetargon.com/collections/oh-my-zsh
+ ~  clear
+  GNU nano 2.0.6          File: /Users/bg7757/.zshrc
+
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+DEFAULT_USER=$(whoami)
+# Path to your oh-my-zsh installation.
+export ZSH="/Users/bg7757/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+# ZSH_THEME="minimal"
+ZSH_THEME="agnoster"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS=true
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+                              [ Read 102 lines ]
+^G Get Help  ^O WriteOut  ^R Read File ^Y Prev Page ^K Cut Text  ^C Cur Pos
+^X Exit      ^J Justify   ^W Where Is  ^V Next Page ^U UnCut Text^T To Spell
